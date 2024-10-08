@@ -1,11 +1,11 @@
 import Landing from "@/src/components/modules/home/Landing";
 
- 
-
-export default function Home() {
+const HomePage = () => {
   return (
     <div>
       <Landing />
     </div>
   );
-}
+};
+
+export default HomePage;
