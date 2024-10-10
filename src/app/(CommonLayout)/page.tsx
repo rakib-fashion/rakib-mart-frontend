@@ -1,9 +1,10 @@
 import Landing from "@/src/components/modules/home/Landing";
+import { NFcarousel } from "@/src/components/carousel/NFcarousel";
 
 const HomePage = () => {
   return (
     <div>
-      <Landing />
+      <NFcarousel />
     </div>
   );
 };
